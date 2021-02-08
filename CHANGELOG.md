@@ -347,6 +347,7 @@ Released with 1.0.0-beta.37 code base.
 
 - Add `ETH2Core` class export to `index.d.ts` for `web3-eth2-core` (#3878)
 - Deprecation of bzz warning (#3872)
+<<<<<<< HEAD
 - Deprecation of shh warning (#3888)
 
 ## [Unreleased]
@@ -360,3 +361,9 @@ Released with 1.0.0-beta.37 code base.
 ### Changed
 
 - Unified babel compiler for `web3-eth2-core` and `web3-eth2-beaconchain` (#3892)
+=======
+
+### Fixed
+
+- Fixed memory leak in web3-eth contracts (#3042)
+>>>>>>> f399b7d8bedf7c6ea4ff661210cc3a53163a7048
